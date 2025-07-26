@@ -205,62 +205,62 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Kitchen Photo */}
+            {/* Interior Hallway */}
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="https://cdn.poehali.dev/files/e578a59c-95db-4279-b854-ddf1992666e5.JPG"
-                alt="Современная кухня с золотой мойкой"
+                src="https://cdn.poehali.dev/files/dea4178c-68f1-4e29-872a-2356a26269b3.jpeg"
+                alt="Стильная прихожая с классическими панелями"
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h4 className="font-semibold text-lg">Дизайнерская кухня</h4>
-                  <p className="text-sm text-white/80">Премиум техника и материалы</p>
+                  <h4 className="font-semibold text-lg">Элегантная прихожая</h4>
+                  <p className="text-sm text-white/80">Классические панели и акцентное освещение</p>
                 </div>
               </div>
             </div>
 
-            {/* Living Room Photo 1 */}
+            {/* Modern Room */}
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="https://cdn.poehali.dev/files/1095e676-12de-4763-bdae-df134d353b1c.jpeg"
-                alt="Гостиная с панорамными окнами"
+                src="https://cdn.poehali.dev/files/f7d8ad42-7ad3-42f7-9bc8-ea76d541cd91.jpeg"
+                alt="Современная комната с тиловым освещением"
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h4 className="font-semibold text-lg">Просторная гостиная</h4>
-                  <p className="text-sm text-white/80">Светлые тона и большие окна</p>
+                  <h4 className="font-semibold text-lg">Минималистичный интерьер</h4>
+                  <p className="text-sm text-white/80">Дизайнерское освещение и встроенные шкафы</p>
                 </div>
               </div>
             </div>
 
-            {/* Living Room Photo 2 */}
+            {/* Laundry Area */}
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
               <img 
-                src="https://cdn.poehali.dev/files/3ace00fa-d718-4871-84d1-504e183b08c6.jpeg"
-                alt="Гостиная с акцентной бирюзовой стеной"
+                src="https://cdn.poehali.dev/files/1d85fe72-0d69-4229-941c-a496cfa5d642.jpeg"
+                alt="Постирочная зона с современной техникой"
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h4 className="font-semibold text-lg">Акцентная стена</h4>
-                  <p className="text-sm text-white/80">Стильные цветовые решения</p>
+                  <h4 className="font-semibold text-lg">Постирочная зона</h4>
+                  <p className="text-sm text-white/80">Функциональное пространство</p>
                 </div>
               </div>
             </div>
 
-            {/* Full Kitchen View */}
+            {/* Bedroom with view */}
             <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 lg:col-span-2">
               <img 
-                src="https://cdn.poehali.dev/files/a01a645b-2fee-4b23-8326-da19377b6863.JPG"
-                alt="Полный вид кухни-гостиной"
+                src="https://cdn.poehali.dev/files/54d43de6-6fc3-405f-860d-dcb7855cabb0.jpeg"
+                alt="Спальня с панорамными окнами и хрустальной люстрой"
                 className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-4 left-4 text-white">
-                  <h4 className="font-semibold text-lg">Кухня-гостиная</h4>
-                  <p className="text-sm text-white/80">Открытое пространство с трековым освещением</p>
+                  <h4 className="font-semibold text-lg">Спальня с видом</h4>
+                  <p className="text-sm text-white/80">Панорамные окна и элегантное освещение</p>
                 </div>
               </div>
             </div>
