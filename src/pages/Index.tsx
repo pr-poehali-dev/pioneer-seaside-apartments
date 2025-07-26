@@ -191,6 +191,103 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Gallery */}
+      <section id="gallery" className="py-20">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <Badge className="mb-4 bg-primary/10 text-primary">Галерея</Badge>
+            <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
+              Интерьеры готовых апартаментов
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Дизайнерский ремонт премиум-класса. Каждая деталь продумана до мелочей.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Kitchen Photo */}
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://cdn.poehali.dev/files/e578a59c-95db-4279-b854-ddf1992666e5.JPG"
+                alt="Современная кухня с золотой мойкой"
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h4 className="font-semibold text-lg">Дизайнерская кухня</h4>
+                  <p className="text-sm text-white/80">Премиум техника и материалы</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Living Room Photo 1 */}
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://cdn.poehali.dev/files/1095e676-12de-4763-bdae-df134d353b1c.jpeg"
+                alt="Гостиная с панорамными окнами"
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h4 className="font-semibold text-lg">Просторная гостиная</h4>
+                  <p className="text-sm text-white/80">Светлые тона и большие окна</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Living Room Photo 2 */}
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="https://cdn.poehali.dev/files/3ace00fa-d718-4871-84d1-504e183b08c6.jpeg"
+                alt="Гостиная с акцентной бирюзовой стеной"
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h4 className="font-semibold text-lg">Акцентная стена</h4>
+                  <p className="text-sm text-white/80">Стильные цветовые решения</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Full Kitchen View */}
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 lg:col-span-2">
+              <img 
+                src="https://cdn.poehali.dev/files/a01a645b-2fee-4b23-8326-da19377b6863.JPG"
+                alt="Полный вид кухни-гостиной"
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h4 className="font-semibold text-lg">Кухня-гостиная</h4>
+                  <p className="text-sm text-white/80">Открытое пространство с трековым освещением</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Existing image as additional gallery item */}
+            <div className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+              <img 
+                src="/img/07a9dfd4-1158-463c-a856-ffc748460cb1.jpg"
+                alt="Вид из окна на море"
+                className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-4 left-4 text-white">
+                  <h4 className="font-semibold text-lg">Вид на море</h4>
+                  <p className="text-sm text-white/80">Балтийское море в 50 метрах</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Button size="lg" className="mr-4">Записаться на просмотр</Button>
+            <Button size="lg" variant="outline">Виртуальный тур</Button>
+          </div>
+        </div>
+      </section>
+
       {/* Location */}
       <section id="location" className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
